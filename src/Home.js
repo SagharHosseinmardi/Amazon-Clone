@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <div className="home">
-        {/* <div className="home__container"> */}
+        <div className="home__container">
           <img
             src="https://www.x-cart.com/img/16591/ecommerce-p800.jpg"
             alt=""
@@ -28,7 +28,7 @@ function Home() {
             <Product />
           </div>
         </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 }
